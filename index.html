@@ -309,8 +309,8 @@ ctx.clearRect(0,0,canvas.width,canvas.height)
 
 particles.forEach(p=>{
 
-p.x+=(p.tx-p.x)*0.03
-p.y+=(p.ty-p.y)*0.03
+p.x+=(p.tx-p.x)*0.05
+p.y+=(p.ty-p.y)*0.05
 
 ctx.fillStyle="#ff4da6"
 
@@ -332,7 +332,7 @@ if(i<texts.length){
 
 createText(texts[i])
 
-let delay=1800
+let delay=2800
 
 if(texts[i]=="Happy Birthday") delay=2500
 if(texts[i]=="To My Crime Partner") delay=2800
